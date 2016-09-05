@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58A9A131D7D50A300F35EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A9A121D7D50A300F35EC5 /* AppDelegate.swift */; };
+		F58A9A151D7D50A300F35EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A9A141D7D50A300F35EC5 /* ViewController.swift */; };
+		F58A9A181D7D50A300F35EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58A9A161D7D50A300F35EC5 /* Main.storyboard */; };
+		F58A9A1A1D7D50A300F35EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58A9A191D7D50A300F35EC5 /* Assets.xcassets */; };
+		F58A9A1D1D7D50A300F35EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58A9A1B1D7D50A300F35EC5 /* LaunchScreen.storyboard */; };
+		F58A9A281D7D50A400F35EC5 /* ChangeTextStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A9A271D7D50A400F35EC5 /* ChangeTextStyleTests.swift */; };
+		F58A9A331D7D50A400F35EC5 /* ChangeTextStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58A9A321D7D50A400F35EC5 /* ChangeTextStyleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F58A9A241D7D50A400F35EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58A9A071D7D50A300F35EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A9A0E1D7D50A300F35EC5;
+			remoteInfo = ChangeTextStyle;
+		};
+		F58A9A2F1D7D50A400F35EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F58A9A071D7D50A300F35EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58A9A0E1D7D50A300F35EC5;
+			remoteInfo = ChangeTextStyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F58A9A0F1D7D50A300F35EC5 /* ChangeTextStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeTextStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A9A121D7D50A300F35EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F58A9A141D7D50A300F35EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F58A9A171D7D50A300F35EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58A9A191D7D50A300F35EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58A9A1C1D7D50A300F35EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58A9A1E1D7D50A300F35EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58A9A231D7D50A400F35EC5 /* ChangeTextStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeTextStyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A9A271D7D50A400F35EC5 /* ChangeTextStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTextStyleTests.swift; sourceTree = "<group>"; };
+		F58A9A291D7D50A400F35EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58A9A2E1D7D50A400F35EC5 /* ChangeTextStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeTextStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58A9A321D7D50A400F35EC5 /* ChangeTextStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTextStyleUITests.swift; sourceTree = "<group>"; };
+		F58A9A341D7D50A400F35EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58A9A0C1D7D50A300F35EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A201D7D50A400F35EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A2B1D7D50A400F35EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58A9A061D7D50A300F35EC5 = {
+			isa = PBXGroup;
+			children = (
+				F58A9A111D7D50A300F35EC5 /* ChangeTextStyle */,
+				F58A9A261D7D50A400F35EC5 /* ChangeTextStyleTests */,
+				F58A9A311D7D50A400F35EC5 /* ChangeTextStyleUITests */,
+				F58A9A101D7D50A300F35EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58A9A101D7D50A300F35EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58A9A0F1D7D50A300F35EC5 /* ChangeTextStyle.app */,
+				F58A9A231D7D50A400F35EC5 /* ChangeTextStyleTests.xctest */,
+				F58A9A2E1D7D50A400F35EC5 /* ChangeTextStyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58A9A111D7D50A300F35EC5 /* ChangeTextStyle */ = {
+			isa = PBXGroup;
+			children = (
+				F58A9A121D7D50A300F35EC5 /* AppDelegate.swift */,
+				F58A9A141D7D50A300F35EC5 /* ViewController.swift */,
+				F58A9A161D7D50A300F35EC5 /* Main.storyboard */,
+				F58A9A191D7D50A300F35EC5 /* Assets.xcassets */,
+				F58A9A1B1D7D50A300F35EC5 /* LaunchScreen.storyboard */,
+				F58A9A1E1D7D50A300F35EC5 /* Info.plist */,
+			);
+			path = ChangeTextStyle;
+			sourceTree = "<group>";
+		};
+		F58A9A261D7D50A400F35EC5 /* ChangeTextStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F58A9A271D7D50A400F35EC5 /* ChangeTextStyleTests.swift */,
+				F58A9A291D7D50A400F35EC5 /* Info.plist */,
+			);
+			path = ChangeTextStyleTests;
+			sourceTree = "<group>";
+		};
+		F58A9A311D7D50A400F35EC5 /* ChangeTextStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F58A9A321D7D50A400F35EC5 /* ChangeTextStyleUITests.swift */,
+				F58A9A341D7D50A400F35EC5 /* Info.plist */,
+			);
+			path = ChangeTextStyleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58A9A0E1D7D50A300F35EC5 /* ChangeTextStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A9A371D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyle" */;
+			buildPhases = (
+				F58A9A0B1D7D50A300F35EC5 /* Sources */,
+				F58A9A0C1D7D50A300F35EC5 /* Frameworks */,
+				F58A9A0D1D7D50A300F35EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeTextStyle;
+			productName = ChangeTextStyle;
+			productReference = F58A9A0F1D7D50A300F35EC5 /* ChangeTextStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F58A9A221D7D50A400F35EC5 /* ChangeTextStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A9A3A1D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyleTests" */;
+			buildPhases = (
+				F58A9A1F1D7D50A400F35EC5 /* Sources */,
+				F58A9A201D7D50A400F35EC5 /* Frameworks */,
+				F58A9A211D7D50A400F35EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58A9A251D7D50A400F35EC5 /* PBXTargetDependency */,
+			);
+			name = ChangeTextStyleTests;
+			productName = ChangeTextStyleTests;
+			productReference = F58A9A231D7D50A400F35EC5 /* ChangeTextStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F58A9A2D1D7D50A400F35EC5 /* ChangeTextStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58A9A3D1D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyleUITests" */;
+			buildPhases = (
+				F58A9A2A1D7D50A400F35EC5 /* Sources */,
+				F58A9A2B1D7D50A400F35EC5 /* Frameworks */,
+				F58A9A2C1D7D50A400F35EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58A9A301D7D50A400F35EC5 /* PBXTargetDependency */,
+			);
+			name = ChangeTextStyleUITests;
+			productName = ChangeTextStyleUITests;
+			productReference = F58A9A2E1D7D50A400F35EC5 /* ChangeTextStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58A9A071D7D50A300F35EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张建军";
+				TargetAttributes = {
+					F58A9A0E1D7D50A300F35EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F58A9A221D7D50A400F35EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F58A9A0E1D7D50A300F35EC5;
+					};
+					F58A9A2D1D7D50A400F35EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F58A9A0E1D7D50A300F35EC5;
+					};
+				};
+			};
+			buildConfigurationList = F58A9A0A1D7D50A300F35EC5 /* Build configuration list for PBXProject "ChangeTextStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58A9A061D7D50A300F35EC5;
+			productRefGroup = F58A9A101D7D50A300F35EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58A9A0E1D7D50A300F35EC5 /* ChangeTextStyle */,
+				F58A9A221D7D50A400F35EC5 /* ChangeTextStyleTests */,
+				F58A9A2D1D7D50A400F35EC5 /* ChangeTextStyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58A9A0D1D7D50A300F35EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A9A1D1D7D50A300F35EC5 /* LaunchScreen.storyboard in Resources */,
+				F58A9A1A1D7D50A300F35EC5 /* Assets.xcassets in Resources */,
+				F58A9A181D7D50A300F35EC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A211D7D50A400F35EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A2C1D7D50A400F35EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58A9A0B1D7D50A300F35EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A9A151D7D50A300F35EC5 /* ViewController.swift in Sources */,
+				F58A9A131D7D50A300F35EC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A1F1D7D50A400F35EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A9A281D7D50A400F35EC5 /* ChangeTextStyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58A9A2A1D7D50A400F35EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58A9A331D7D50A400F35EC5 /* ChangeTextStyleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F58A9A251D7D50A400F35EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A9A0E1D7D50A300F35EC5 /* ChangeTextStyle */;
+			targetProxy = F58A9A241D7D50A400F35EC5 /* PBXContainerItemProxy */;
+		};
+		F58A9A301D7D50A400F35EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58A9A0E1D7D50A300F35EC5 /* ChangeTextStyle */;
+			targetProxy = F58A9A2F1D7D50A400F35EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F58A9A161D7D50A300F35EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58A9A171D7D50A300F35EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58A9A1B1D7D50A300F35EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58A9A1C1D7D50A300F35EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58A9A351D7D50A400F35EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58A9A361D7D50A400F35EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58A9A381D7D50A400F35EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeTextStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F58A9A391D7D50A400F35EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChangeTextStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F58A9A3B1D7D50A400F35EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeTextStyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeTextStyle.app/ChangeTextStyle";
+			};
+			name = Debug;
+		};
+		F58A9A3C1D7D50A400F35EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChangeTextStyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangeTextStyle.app/ChangeTextStyle";
+			};
+			name = Release;
+		};
+		F58A9A3E1D7D50A400F35EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeTextStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeTextStyle;
+			};
+			name = Debug;
+		};
+		F58A9A3F1D7D50A400F35EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChangeTextStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = windsSunShine.io.ChangeTextStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChangeTextStyle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58A9A0A1D7D50A300F35EC5 /* Build configuration list for PBXProject "ChangeTextStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A9A351D7D50A400F35EC5 /* Debug */,
+				F58A9A361D7D50A400F35EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58A9A371D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A9A381D7D50A400F35EC5 /* Debug */,
+				F58A9A391D7D50A400F35EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F58A9A3A1D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A9A3B1D7D50A400F35EC5 /* Debug */,
+				F58A9A3C1D7D50A400F35EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F58A9A3D1D7D50A400F35EC5 /* Build configuration list for PBXNativeTarget "ChangeTextStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58A9A3E1D7D50A400F35EC5 /* Debug */,
+				F58A9A3F1D7D50A400F35EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58A9A071D7D50A300F35EC5 /* Project object */;
+}
